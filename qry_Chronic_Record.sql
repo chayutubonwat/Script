@@ -4,3 +4,5 @@ oa.note AS cn_others
 FROM clinicmember cm
 LEFT OUTER JOIN opd_allergy oa on cm.hn=oa.hn
 LEFT OUTER JOIN clinic c ON cm.clinic=c.clinic
+
+LIMIT 100

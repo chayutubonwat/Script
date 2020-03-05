@@ -7,4 +7,4 @@ FROM  opitemrece o
 LEFT OUTER JOIN drugitems d on o.icode=d.icode
 LEFT OUTER JOIN doctor dt on o.doctor=dt.code
 LEFT OUtER JOIN opduser ou on o.staff=ou.loginname
-WHERE o.vn='630105112512' 
+LIMIT 100

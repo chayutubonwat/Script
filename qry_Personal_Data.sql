@@ -10,4 +10,4 @@ LEFT OUTER JOIN marrystatus m ON p.marrystatus=m.code
 
 JOIN opdconfig o 
 
-WHERE p.hn="0016509"
+LIMIT 100

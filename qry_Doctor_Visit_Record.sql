@@ -14,4 +14,4 @@ LEFT OUTER JOIN opitemrece opi ON v.vn=opi.vn
 LEFT OUtER JOIN drugitems d ON opi.icode=d.icode
 
 
-ORDER BY v.vn desc limit 100
+ORDER BY v.vn DESC LIMIT 100

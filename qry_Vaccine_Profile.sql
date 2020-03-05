@@ -16,3 +16,5 @@ FROM
 	ovst_vaccine ov
 	LEFT OUTER JOIN ovst o ON ov.vn = o.vn
 	LEFT OUTER JOIN person_vaccine pv ON ov.person_vaccine_id = pv.person_vaccine_id
+
+LIMIT 100
